@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360DD8FD267520CA00CD8AC6 /* Ta-Da Orchestra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 360DD8F7267520C900CD8AC6 /* Ta-Da Orchestra.mp3 */; };
+		360DD900267520CA00CD8AC6 /* Magical Point Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 360DD8FA267520CA00CD8AC6 /* Magical Point Win.mp3 */; };
+		360DD901267520CA00CD8AC6 /* Error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 360DD8FB267520CA00CD8AC6 /* Error.mp3 */; };
+		363D3940267619AF00C0577F /* Item Selection.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 363D393E267618E600C0577F /* Item Selection.mp3 */; };
+		363D3941267619AF00C0577F /* Menu Selection.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 363D393F267618EA00C0577F /* Menu Selection.mp3 */; };
+		367E3B2D2642D1B900F61F66 /* LevelsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E3B2C2642D1B900F61F66 /* LevelsUtility.swift */; };
+		36CFF19C2625F63700D03029 /* DeepMind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF19A2625F63700D03029 /* DeepMind.xcdatamodeld */; };
+		36CFF1A82625F99000D03029 /* Errori+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A02625F99000D03029 /* Errori+CoreDataClass.swift */; };
+		36CFF1A92625F99000D03029 /* Errori+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A12625F99000D03029 /* Errori+CoreDataProperties.swift */; };
+		36CFF1AA2625F99000D03029 /* Tentativi+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A22625F99000D03029 /* Tentativi+CoreDataClass.swift */; };
+		36CFF1AB2625F99000D03029 /* Tentativi+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A32625F99000D03029 /* Tentativi+CoreDataProperties.swift */; };
+		36CFF1AC2625F99000D03029 /* Accessi+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A42625F99000D03029 /* Accessi+CoreDataClass.swift */; };
+		36CFF1AD2625F99000D03029 /* Accessi+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1A52625F99000D03029 /* Accessi+CoreDataProperties.swift */; };
+		36CFF1B42625F9B300D03029 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1B32625F9B300D03029 /* PersistanceManager.swift */; };
+		36CFF1B9262847B700D03029 /* TipiErrore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1B8262847B700D03029 /* TipiErrore.swift */; };
+		36CFF1BE262847FC00D03029 /* Livelli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFF1BD262847FC00D03029 /* Livelli.swift */; };
+		36F4A4E02638720700866573 /* Livello2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F4A4DF2638720700866573 /* Livello2.swift */; };
+		36F4A4E62638721400866573 /* Livello3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F4A4E52638721400866573 /* Livello3.swift */; };
+		36F4A4EA2638724900866573 /* Livello2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36F4A4E92638724900866573 /* Livello2.sks */; };
+		36F4A4EE2638729800866573 /* Livello3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36F4A4ED2638729800866573 /* Livello3.sks */; };
+		4C7FEAFA1B1CBD7E6BE95AC5 /* Pods_DeepMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA3DCA54A52D3760306E75E /* Pods_DeepMind.framework */; };
+		AB30855BDBD9CC944F26B07F /* Pods_DeepMindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493D864771EDC0A6DB5DF2F2 /* Pods_DeepMindTests.framework */; };
+		DC1B202C26382F62004F3C7A /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B202B26382F62004F3C7A /* AppUtility.swift */; };
+		DC44D62F267B330900F372D6 /* MailsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44D62E267B330900F372D6 /* MailsUtility.swift */; };
+		DC44D631267E2B2800F372D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44D630267E2B2800F372D6 /* MainViewController.swift */; };
+		DC4856AB2631B90D00C9228E /* Livello1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4856AA2631B90D00C9228E /* Livello1.swift */; };
+		DC4856B02631BA5C00C9228E /* Livello1.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC4856AF2631BA5C00C9228E /* Livello1.sks */; };
+		DC4F7E1E267905B0009D5169 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC4F7E1D267905B0009D5169 /* click.mp3 */; };
+		DC6F6BC22625EE9D00D505F8 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F6BC12625EE9D00D505F8 /* SettingsController.swift */; };
+		DC7083BB26428088005D9640 /* InteractiveNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7083BA26428088005D9640 /* InteractiveNode.swift */; };
+		DC9A5B8F26357D38009CD7E8 /* MailCore2 in Frameworks */ = {isa = PBXBuildFile; productRef = DC9A5B8E26357D38009CD7E8 /* MailCore2 */; };
+		EE5556122674890C007C358B /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5556112674890C007C358B /* LineChartViewController.swift */; };
+		EE7B04B926300C6C00FD163C /* StatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B04B826300C6C00FD163C /* StatController.swift */; };
+		EEB7C7202621EC8200909D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C71F2621EC8200909D85 /* AppDelegate.swift */; };
+		EEB7C7222621EC8200909D85 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEB7C7212621EC8200909D85 /* GameScene.sks */; };
+		EEB7C7242621EC8200909D85 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEB7C7232621EC8200909D85 /* Actions.sks */; };
+		EEB7C7262621EC8200909D85 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C7252621EC8200909D85 /* GameScene.swift */; };
+		EEB7C7282621EC8200909D85 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C7272621EC8200909D85 /* GameViewController.swift */; };
+		EEB7C72B2621EC8200909D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB7C7292621EC8200909D85 /* Main.storyboard */; };
+		EEB7C72D2621EC8300909D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB7C72C2621EC8300909D85 /* Assets.xcassets */; };
+		EEB7C7382621EC8300909D85 /* DeepMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C7372621EC8300909D85 /* DeepMindTests.swift */; };
+		EEB7C7432621EC8300909D85 /* DeepMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C7422621EC8300909D85 /* DeepMindUITests.swift */; };
+		F30C90AEE871A44B12CAF380 /* Pods_DeepMind_DeepMindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112FADC671D1F46344993948 /* Pods_DeepMind_DeepMindUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB7C7342621EC8300909D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB7C7142621EC8200909D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7C71B2621EC8200909D85;
+			remoteInfo = DeepMind;
+		};
+		EEB7C73F2621EC8300909D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB7C7142621EC8200909D85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7C71B2621EC8200909D85;
+			remoteInfo = DeepMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC9A5B9326357D58009CD7E8 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		112FADC671D1F46344993948 /* Pods_DeepMind_DeepMindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMind_DeepMindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E45DE45B858835F27719BD2 /* Pods-DeepMindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMindTests.release.xcconfig"; path = "Target Support Files/Pods-DeepMindTests/Pods-DeepMindTests.release.xcconfig"; sourceTree = "<group>"; };
+		294E736F0B9DF9D4849CD412 /* Pods-DeepMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind.debug.xcconfig"; path = "Target Support Files/Pods-DeepMind/Pods-DeepMind.debug.xcconfig"; sourceTree = "<group>"; };
+		360DD8F7267520C900CD8AC6 /* Ta-Da Orchestra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ta-Da Orchestra.mp3"; sourceTree = "<group>"; };
+		360DD8F9267520CA00CD8AC6 /* Pop Ding Notification Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pop Ding Notification Effect.mp3"; sourceTree = "<group>"; };
+		360DD8FA267520CA00CD8AC6 /* Magical Point Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Magical Point Win.mp3"; sourceTree = "<group>"; };
+		360DD8FB267520CA00CD8AC6 /* Error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Error.mp3; sourceTree = "<group>"; };
+		363D393E267618E600C0577F /* Item Selection.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Item Selection.mp3"; sourceTree = "<group>"; };
+		363D393F267618EA00C0577F /* Menu Selection.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Menu Selection.mp3"; sourceTree = "<group>"; };
+		367E3B2C2642D1B900F61F66 /* LevelsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsUtility.swift; sourceTree = "<group>"; };
+		36CFF19B2625F63700D03029 /* DeepMind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeepMind.xcdatamodel; sourceTree = "<group>"; };
+		36CFF1A02625F99000D03029 /* Errori+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Errori+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36CFF1A12625F99000D03029 /* Errori+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Errori+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36CFF1A22625F99000D03029 /* Tentativi+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tentativi+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36CFF1A32625F99000D03029 /* Tentativi+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tentativi+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36CFF1A42625F99000D03029 /* Accessi+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accessi+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36CFF1A52625F99000D03029 /* Accessi+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accessi+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36CFF1B32625F9B300D03029 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		36CFF1B8262847B700D03029 /* TipiErrore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipiErrore.swift; sourceTree = "<group>"; };
+		36CFF1BD262847FC00D03029 /* Livelli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livelli.swift; sourceTree = "<group>"; };
+		36F4A4DF2638720700866573 /* Livello2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livello2.swift; sourceTree = "<group>"; };
+		36F4A4E52638721400866573 /* Livello3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livello3.swift; sourceTree = "<group>"; };
+		36F4A4E92638724900866573 /* Livello2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Livello2.sks; sourceTree = "<group>"; };
+		36F4A4ED2638729800866573 /* Livello3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Livello3.sks; sourceTree = "<group>"; };
+		493D864771EDC0A6DB5DF2F2 /* Pods_DeepMindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D925932699A3044294CDCF /* Pods-DeepMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind.release.xcconfig"; path = "Target Support Files/Pods-DeepMind/Pods-DeepMind.release.xcconfig"; sourceTree = "<group>"; };
+		5CA3DCA54A52D3760306E75E /* Pods_DeepMind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8000AC1DCB3C6DEFEC4CD7AD /* Pods-DeepMind-DeepMindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind-DeepMindUITests.release.xcconfig"; path = "Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C99F2DA763B95D34C3406D8 /* Pods-DeepMindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMindTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepMindTests/Pods-DeepMindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1B202B26382F62004F3C7A /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		DC44D62E267B330900F372D6 /* MailsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsUtility.swift; sourceTree = "<group>"; };
+		DC44D630267E2B2800F372D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DC4856AA2631B90D00C9228E /* Livello1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livello1.swift; sourceTree = "<group>"; };
+		DC4856AF2631BA5C00C9228E /* Livello1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Livello1.sks; sourceTree = "<group>"; };
+		DC4F7E1D267905B0009D5169 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		DC6F6BC12625EE9D00D505F8 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		DC7083BA26428088005D9640 /* InteractiveNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveNode.swift; sourceTree = "<group>"; };
+		DE67CBAC93533B0ED4385F79 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind-DeepMindUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5556112674890C007C358B /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		EE7B04B826300C6C00FD163C /* StatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatController.swift; sourceTree = "<group>"; };
+		EEB7C71C2621EC8200909D85 /* DeepMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7C71F2621EC8200909D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB7C7212621EC8200909D85 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EEB7C7232621EC8200909D85 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EEB7C7252621EC8200909D85 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EEB7C7272621EC8200909D85 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EEB7C72A2621EC8200909D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB7C72C2621EC8300909D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB7C72E2621EC8300909D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7C7332621EC8300909D85 /* DeepMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7C7372621EC8300909D85 /* DeepMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepMindTests.swift; sourceTree = "<group>"; };
+		EEB7C7392621EC8300909D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7C73E2621EC8300909D85 /* DeepMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB7C7422621EC8300909D85 /* DeepMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepMindUITests.swift; sourceTree = "<group>"; };
+		EEB7C7442621EC8300909D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB7C7192621EC8200909D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7FEAFA1B1CBD7E6BE95AC5 /* Pods_DeepMind.framework in Frameworks */,
+				DC9A5B8F26357D38009CD7E8 /* MailCore2 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C7302621EC8300909D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB30855BDBD9CC944F26B07F /* Pods_DeepMindTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C73B2621EC8300909D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30C90AEE871A44B12CAF380 /* Pods_DeepMind_DeepMindUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360DD8F6267520AF00CD8AC6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				360DD8FB267520CA00CD8AC6 /* Error.mp3 */,
+				363D393E267618E600C0577F /* Item Selection.mp3 */,
+				360DD8FA267520CA00CD8AC6 /* Magical Point Win.mp3 */,
+				363D393F267618EA00C0577F /* Menu Selection.mp3 */,
+				360DD8F9267520CA00CD8AC6 /* Pop Ding Notification Effect.mp3 */,
+				360DD8F7267520C900CD8AC6 /* Ta-Da Orchestra.mp3 */,
+				DC4F7E1D267905B0009D5169 /* click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		36CFF1992625F62300D03029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36CFF1A02625F99000D03029 /* Errori+CoreDataClass.swift */,
+				36CFF1A12625F99000D03029 /* Errori+CoreDataProperties.swift */,
+				36CFF1A22625F99000D03029 /* Tentativi+CoreDataClass.swift */,
+				36CFF1A32625F99000D03029 /* Tentativi+CoreDataProperties.swift */,
+				36CFF1A42625F99000D03029 /* Accessi+CoreDataClass.swift */,
+				36CFF1A52625F99000D03029 /* Accessi+CoreDataProperties.swift */,
+				36CFF19A2625F63700D03029 /* DeepMind.xcdatamodeld */,
+				36CFF1B32625F9B300D03029 /* PersistanceManager.swift */,
+				36CFF1B8262847B700D03029 /* TipiErrore.swift */,
+				36CFF1BD262847FC00D03029 /* Livelli.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36F4A4DE263871D900866573 /* Livelli */ = {
+			isa = PBXGroup;
+			children = (
+				DC4856AA2631B90D00C9228E /* Livello1.swift */,
+				DC4856AF2631BA5C00C9228E /* Livello1.sks */,
+				36F4A4DF2638720700866573 /* Livello2.swift */,
+				36F4A4E52638721400866573 /* Livello3.swift */,
+				36F4A4E92638724900866573 /* Livello2.sks */,
+				36F4A4ED2638729800866573 /* Livello3.sks */,
+				DC7083BA26428088005D9640 /* InteractiveNode.swift */,
+				367E3B2C2642D1B900F61F66 /* LevelsUtility.swift */,
+			);
+			path = Livelli;
+			sourceTree = "<group>";
+		};
+		AD1DA8E33F3078B2CA769BAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				294E736F0B9DF9D4849CD412 /* Pods-DeepMind.debug.xcconfig */,
+				51D925932699A3044294CDCF /* Pods-DeepMind.release.xcconfig */,
+				DE67CBAC93533B0ED4385F79 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */,
+				8000AC1DCB3C6DEFEC4CD7AD /* Pods-DeepMind-DeepMindUITests.release.xcconfig */,
+				8C99F2DA763B95D34C3406D8 /* Pods-DeepMindTests.debug.xcconfig */,
+				1E45DE45B858835F27719BD2 /* Pods-DeepMindTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E37637898083B9CECAC0D701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA3DCA54A52D3760306E75E /* Pods_DeepMind.framework */,
+				112FADC671D1F46344993948 /* Pods_DeepMind_DeepMindUITests.framework */,
+				493D864771EDC0A6DB5DF2F2 /* Pods_DeepMindTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB7C7132621EC8200909D85 = {
+			isa = PBXGroup;
+			children = (
+				EEB7C71E2621EC8200909D85 /* DeepMind */,
+				EEB7C7362621EC8300909D85 /* DeepMindTests */,
+				EEB7C7412621EC8300909D85 /* DeepMindUITests */,
+				EEB7C71D2621EC8200909D85 /* Products */,
+				AD1DA8E33F3078B2CA769BAE /* Pods */,
+				E37637898083B9CECAC0D701 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB7C71D2621EC8200909D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7C71C2621EC8200909D85 /* DeepMind.app */,
+				EEB7C7332621EC8300909D85 /* DeepMindTests.xctest */,
+				EEB7C73E2621EC8300909D85 /* DeepMindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB7C71E2621EC8200909D85 /* DeepMind */ = {
+			isa = PBXGroup;
+			children = (
+				360DD8F6267520AF00CD8AC6 /* Sounds */,
+				36F4A4DE263871D900866573 /* Livelli */,
+				DC1B202B26382F62004F3C7A /* AppUtility.swift */,
+				36CFF1992625F62300D03029 /* Model */,
+				DC6F6BC12625EE9D00D505F8 /* SettingsController.swift */,
+				EEB7C71F2621EC8200909D85 /* AppDelegate.swift */,
+				EEB7C7212621EC8200909D85 /* GameScene.sks */,
+				EEB7C7232621EC8200909D85 /* Actions.sks */,
+				EEB7C7252621EC8200909D85 /* GameScene.swift */,
+				EEB7C7272621EC8200909D85 /* GameViewController.swift */,
+				EEB7C7292621EC8200909D85 /* Main.storyboard */,
+				EE5556112674890C007C358B /* LineChartViewController.swift */,
+				EEB7C72C2621EC8300909D85 /* Assets.xcassets */,
+				EEB7C72E2621EC8300909D85 /* Info.plist */,
+				EE7B04B826300C6C00FD163C /* StatController.swift */,
+				DC44D62E267B330900F372D6 /* MailsUtility.swift */,
+				DC44D630267E2B2800F372D6 /* MainViewController.swift */,
+			);
+			path = DeepMind;
+			sourceTree = "<group>";
+		};
+		EEB7C7362621EC8300909D85 /* DeepMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7C7372621EC8300909D85 /* DeepMindTests.swift */,
+				EEB7C7392621EC8300909D85 /* Info.plist */,
+			);
+			path = DeepMindTests;
+			sourceTree = "<group>";
+		};
+		EEB7C7412621EC8300909D85 /* DeepMindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7C7422621EC8300909D85 /* DeepMindUITests.swift */,
+				EEB7C7442621EC8300909D85 /* Info.plist */,
+			);
+			path = DeepMindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB7C71B2621EC8200909D85 /* DeepMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7C7472621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMind" */;
+			buildPhases = (
+				B7FD14B9900A296ED8BF7DD6 /* [CP] Check Pods Manifest.lock */,
+				EEB7C7182621EC8200909D85 /* Sources */,
+				EEB7C7192621EC8200909D85 /* Frameworks */,
+				EEB7C71A2621EC8200909D85 /* Resources */,
+				E3BADC43CB9B3073168862D0 /* [CP] Embed Pods Frameworks */,
+				DC9A5B9326357D58009CD7E8 /* Copy Files */,
+				DC9A5B9526357DBB009CD7E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepMind;
+			packageProductDependencies = (
+				DC9A5B8E26357D38009CD7E8 /* MailCore2 */,
+			);
+			productName = DeepMind;
+			productReference = EEB7C71C2621EC8200909D85 /* DeepMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB7C7322621EC8300909D85 /* DeepMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7C74A2621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMindTests" */;
+			buildPhases = (
+				8B907271F9D0A67FF7C19129 /* [CP] Check Pods Manifest.lock */,
+				EEB7C72F2621EC8300909D85 /* Sources */,
+				EEB7C7302621EC8300909D85 /* Frameworks */,
+				EEB7C7312621EC8300909D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7C7352621EC8300909D85 /* PBXTargetDependency */,
+			);
+			name = DeepMindTests;
+			productName = DeepMindTests;
+			productReference = EEB7C7332621EC8300909D85 /* DeepMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB7C73D2621EC8300909D85 /* DeepMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7C74D2621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMindUITests" */;
+			buildPhases = (
+				7FFE3D63C439658177868B81 /* [CP] Check Pods Manifest.lock */,
+				EEB7C73A2621EC8300909D85 /* Sources */,
+				EEB7C73B2621EC8300909D85 /* Frameworks */,
+				EEB7C73C2621EC8300909D85 /* Resources */,
+				C3E6FF52546B4BE225EE4FD5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7C7402621EC8300909D85 /* PBXTargetDependency */,
+			);
+			name = DeepMindUITests;
+			productName = DeepMindUITests;
+			productReference = EEB7C73E2621EC8300909D85 /* DeepMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB7C7142621EC8200909D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EEB7C71B2621EC8200909D85 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EEB7C7322621EC8300909D85 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EEB7C71B2621EC8200909D85;
+					};
+					EEB7C73D2621EC8300909D85 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EEB7C71B2621EC8200909D85;
+					};
+				};
+			};
+			buildConfigurationList = EEB7C7172621EC8200909D85 /* Build configuration list for PBXProject "DeepMind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB7C7132621EC8200909D85;
+			packageReferences = (
+				DC9A5B8D26357D38009CD7E8 /* XCRemoteSwiftPackageReference "mailcore2" */,
+			);
+			productRefGroup = EEB7C71D2621EC8200909D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB7C71B2621EC8200909D85 /* DeepMind */,
+				EEB7C7322621EC8300909D85 /* DeepMindTests */,
+				EEB7C73D2621EC8300909D85 /* DeepMindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB7C71A2621EC8200909D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363D3940267619AF00C0577F /* Item Selection.mp3 in Resources */,
+				363D3941267619AF00C0577F /* Menu Selection.mp3 in Resources */,
+				EEB7C72B2621EC8200909D85 /* Main.storyboard in Resources */,
+				DC4F7E1E267905B0009D5169 /* click.mp3 in Resources */,
+				DC4856B02631BA5C00C9228E /* Livello1.sks in Resources */,
+				36F4A4EA2638724900866573 /* Livello2.sks in Resources */,
+				360DD8FD267520CA00CD8AC6 /* Ta-Da Orchestra.mp3 in Resources */,
+				EEB7C7222621EC8200909D85 /* GameScene.sks in Resources */,
+				EEB7C72D2621EC8300909D85 /* Assets.xcassets in Resources */,
+				360DD900267520CA00CD8AC6 /* Magical Point Win.mp3 in Resources */,
+				EEB7C7242621EC8200909D85 /* Actions.sks in Resources */,
+				360DD901267520CA00CD8AC6 /* Error.mp3 in Resources */,
+				36F4A4EE2638729800866573 /* Livello3.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C7312621EC8300909D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C73C2621EC8300909D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FFE3D63C439658177868B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMind-DeepMindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B907271F9D0A67FF7C19129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FD14B9900A296ED8BF7DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E6FF52546B4BE225EE4FD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9A5B9526357DBB009CD7E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$PLATFORM_NAME\" == \"macosx\" ]\nthen\n    FRAMEWORK_PATH=\"$CODESIGNING_FOLDER_PATH\"/Contents/Frameworks/MailCore.framework/Versions/A/MailCore\nelse\n    FRAMEWORK_PATH=\"$CODESIGNING_FOLDER_PATH\"/Frameworks/MailCore.framework\nfi\necho \"Signing framework at: $FRAMEWORK_PATH\"\n/usr/bin/codesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --preserve-metadata=identifier,entitlements \"$FRAMEWORK_PATH\"\n";
+		};
+		E3BADC43CB9B3073168862D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB7C7182621EC8200909D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CFF1A82625F99000D03029 /* Errori+CoreDataClass.swift in Sources */,
+				EE5556122674890C007C358B /* LineChartViewController.swift in Sources */,
+				EEB7C7262621EC8200909D85 /* GameScene.swift in Sources */,
+				36F4A4E02638720700866573 /* Livello2.swift in Sources */,
+				36CFF1AD2625F99000D03029 /* Accessi+CoreDataProperties.swift in Sources */,
+				DC6F6BC22625EE9D00D505F8 /* SettingsController.swift in Sources */,
+				36CFF1AC2625F99000D03029 /* Accessi+CoreDataClass.swift in Sources */,
+				DC44D62F267B330900F372D6 /* MailsUtility.swift in Sources */,
+				36CFF1AB2625F99000D03029 /* Tentativi+CoreDataProperties.swift in Sources */,
+				DC1B202C26382F62004F3C7A /* AppUtility.swift in Sources */,
+				EEB7C7282621EC8200909D85 /* GameViewController.swift in Sources */,
+				36CFF1AA2625F99000D03029 /* Tentativi+CoreDataClass.swift in Sources */,
+				36CFF1BE262847FC00D03029 /* Livelli.swift in Sources */,
+				EE7B04B926300C6C00FD163C /* StatController.swift in Sources */,
+				DC4856AB2631B90D00C9228E /* Livello1.swift in Sources */,
+				DC44D631267E2B2800F372D6 /* MainViewController.swift in Sources */,
+				DC7083BB26428088005D9640 /* InteractiveNode.swift in Sources */,
+				36CFF19C2625F63700D03029 /* DeepMind.xcdatamodeld in Sources */,
+				EEB7C7202621EC8200909D85 /* AppDelegate.swift in Sources */,
+				367E3B2D2642D1B900F61F66 /* LevelsUtility.swift in Sources */,
+				36CFF1A92625F99000D03029 /* Errori+CoreDataProperties.swift in Sources */,
+				36CFF1B42625F9B300D03029 /* PersistanceManager.swift in Sources */,
+				36CFF1B9262847B700D03029 /* TipiErrore.swift in Sources */,
+				36F4A4E62638721400866573 /* Livello3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C72F2621EC8300909D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7C7382621EC8300909D85 /* DeepMindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7C73A2621EC8300909D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7C7432621EC8300909D85 /* DeepMindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB7C7352621EC8300909D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7C71B2621EC8200909D85 /* DeepMind */;
+			targetProxy = EEB7C7342621EC8300909D85 /* PBXContainerItemProxy */;
+		};
+		EEB7C7402621EC8300909D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7C71B2621EC8200909D85 /* DeepMind */;
+			targetProxy = EEB7C73F2621EC8300909D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB7C7292621EC8200909D85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB7C72A2621EC8200909D85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB7C7452621EC8300909D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB7C7462621EC8300909D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB7C7482621EC8300909D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294E736F0B9DF9D4849CD412 /* Pods-DeepMind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPKHLTD7H2;
+				INFOPLIST_FILE = DeepMind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB7C7492621EC8300909D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D925932699A3044294CDCF /* Pods-DeepMind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPKHLTD7H2;
+				INFOPLIST_FILE = DeepMind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEB7C74B2621EC8300909D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C99F2DA763B95D34C3406D8 /* Pods-DeepMindTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q8XT5C4A;
+				INFOPLIST_FILE = DeepMindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepMind.app/DeepMind";
+			};
+			name = Debug;
+		};
+		EEB7C74C2621EC8300909D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E45DE45B858835F27719BD2 /* Pods-DeepMindTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q8XT5C4A;
+				INFOPLIST_FILE = DeepMindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepMind.app/DeepMind";
+			};
+			name = Release;
+		};
+		EEB7C74E2621EC8300909D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE67CBAC93533B0ED4385F79 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q8XT5C4A;
+				INFOPLIST_FILE = DeepMindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepMind;
+			};
+			name = Debug;
+		};
+		EEB7C74F2621EC8300909D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8000AC1DCB3C6DEFEC4CD7AD /* Pods-DeepMind-DeepMindUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q8XT5C4A;
+				INFOPLIST_FILE = DeepMindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.Unisa.appleFoundationProgram.DeepMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepMind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB7C7172621EC8200909D85 /* Build configuration list for PBXProject "DeepMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7C7452621EC8300909D85 /* Debug */,
+				EEB7C7462621EC8300909D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7C7472621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7C7482621EC8300909D85 /* Debug */,
+				EEB7C7492621EC8300909D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7C74A2621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7C74B2621EC8300909D85 /* Debug */,
+				EEB7C74C2621EC8300909D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7C74D2621EC8300909D85 /* Build configuration list for PBXNativeTarget "DeepMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7C74E2621EC8300909D85 /* Debug */,
+				EEB7C74F2621EC8300909D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC9A5B8D26357D38009CD7E8 /* XCRemoteSwiftPackageReference "mailcore2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MailCore/mailcore2";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC9A5B8E26357D38009CD7E8 /* MailCore2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC9A5B8D26357D38009CD7E8 /* XCRemoteSwiftPackageReference "mailcore2" */;
+			productName = MailCore2;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		36CFF19A2625F63700D03029 /* DeepMind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36CFF19B2625F63700D03029 /* DeepMind.xcdatamodel */,
+			);
+			currentVersion = 36CFF19B2625F63700D03029 /* DeepMind.xcdatamodel */;
+			path = DeepMind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEB7C7142621EC8200909D85 /* Project object */;
+}
